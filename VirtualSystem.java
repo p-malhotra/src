@@ -1,7 +1,4 @@
 
-	/**
-	 * Copyright 2016 TiVo Inc. All rights reserved.
-	 */
 
 
 	import java.io.IOException;
@@ -44,7 +41,7 @@
 
 	import static com.google.common.base.Preconditions.checkArgument;
 
-	@Component("IVirtualStorageAllocationSystem")
+	@Component("InMemorySystem")
 	public class VirtualSystem {
 
 	    private static final Logger gLogger = LoggerFactory.getLogger(VirtualStorageAllocationSystem.class);
