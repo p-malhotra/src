@@ -28,17 +28,7 @@
 	import org.springframework.stereotype.Component;
 
 	import com.amazonaws.Protocol;
-	import com.tivo.npvr.common.clock.ISystemClock;
-	import com.tivo.storagemoduleagent.config.StorageAgentConfig;
-	import com.tivo.storagemoduleagent.ds.StorageAllocateWrapper;
-	import com.tivo.storagemoduleagent.storage.StorageSystemLinkage;
-	import com.tivo.tws.nextgen.exception.TrioException;
-	import com.tivo.tws.schema.beans.CdvrStorageModuleStorage;
-	import com.tivo.tws.schema.beans.CdvrStorageModuleStorageAllocate;
-	import com.tivo.tws.schema.beans.Error;
-	import com.tivo.tws.schema.beans.ErrorCode;
-	import com.tivo.tws.schema.beans.Success;
-
+	
 	import static com.google.common.base.Preconditions.checkArgument;
 
 	@Component("InMemorySystem")
